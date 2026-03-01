@@ -25,7 +25,9 @@ export const UpdateRoomDialog = ({
         <DialogHeader>
           <DialogTitle>Editar Habitación</DialogTitle>
           <DialogDescription>
-            Actualiza los detalles de la habitación &quot;{room?.name}&quot;.
+            Actualiza los detalles de la habitación {'"'}
+            {room?.name}
+            {'"'}.
           </DialogDescription>
         </DialogHeader>
         {room && (
