@@ -77,6 +77,11 @@
     "vaul": "^0.9.9",
     "zod": "^3.25.76"
   },
+  "overrides": {
+    "@typescript-eslint/utils": {
+      "eslint": "$eslint"
+    }
+  },
   "devDependencies": {
     "@types/node": "^24.0.13",
     "@types/react": "^19.2.0",
