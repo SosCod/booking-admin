@@ -1,7 +1,7 @@
 // src/services/bookings.api.ts
 import { Booking } from '@/src/types/booking';
 
-const API_URL = 'http://localhost:4000/api/bookings';
+const API_URL = `${process.env.NEXT_PUBLIC_API_URL}/bookings`;
 
 export async function getAllBookings(token?: string): Promise<Booking[]> {
   try {

@@ -80,6 +80,9 @@
   "overrides": {
     "@typescript-eslint/utils": {
       "eslint": "$eslint"
+    },
+    "react-day-picker": {
+      "react": "$react"
     }
   },
   "devDependencies": {
