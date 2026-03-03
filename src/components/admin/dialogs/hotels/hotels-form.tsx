@@ -105,9 +105,9 @@ export function HotelsForm({
         setUploadedImageUrls([]);
       }
       if (onSuccess) onSuccess();
-    } catch (error) {
+    } catch (error: any) {
       console.error(error);
-      alert('Hubo un error al procesar el hotel.');
+      alert(error.message || 'Hubo un error al procesar el hotel.');
     }
   };
 
